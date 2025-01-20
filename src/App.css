@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.lightbox {
+  height: 500px;
+}
+
+.blob-container {
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.blob {
+  width: 20px;
+  height: 20px;
+  background-color: #3498db;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
