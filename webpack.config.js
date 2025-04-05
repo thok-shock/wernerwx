@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js', // Adjust if using TypeScript or another entry file
+  entry: ['webpack-hot-middleware/client', './src/index.js'], // Adjust if using TypeScript or another entry file
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),

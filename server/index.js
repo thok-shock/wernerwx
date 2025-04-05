@@ -10,6 +10,8 @@ app.use(webpackDevMiddleware(compiler, {
     publicPath: config.output.publicPath
 }))
 
+app.use(require("webpack-hot-middleware")(compiler));
+
 app.get('/public/:name', (req, res) => {
     res.sendFile(path.join(__dirname, '../public') + '/' + req.params.name)
 })
