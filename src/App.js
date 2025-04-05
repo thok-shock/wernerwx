@@ -4,6 +4,7 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './Nav/Navigation';
+import React from 'react';
 
 
 function App() {
@@ -22,11 +23,11 @@ function App() {
   return (
     <div className="App" data-bs-theme={mode}>
       <Navigation mode={mode} setMode={setMode} />
-      <video muted autoPlay loop width='100%' src='ryan-preview.mp4'></video>
+      <video muted autoPlay loop width='100%' src='/public/ryan-preview.mp4'></video>
         
         
         <Card className='center-over-video p-3' style={{width: '500px'}}>
-          <Card.Img src='werner-nonoil.jpg'></Card.Img>
+          <Card.Img src='/public/werner-nonoil.jpg'></Card.Img>
           <Card.Body>
             <Card.Title className=''><h1>Ryan S Werner</h1></Card.Title>
             <Card.Text>Pharmacist | Web Developer | Corgi Enthusiast</Card.Text>
@@ -37,9 +38,9 @@ function App() {
         
         <Container className='pt-3'>
           <Row>
-            <Col lg='4'>
-            <Card className='m-2 shadow'>
-              <Card.Img src='walgreen.jpg'></Card.Img>
+            <Col>
+            <Card>
+              <Card.Img src='/public/walgreen.jpg'></Card.Img>
               <Card.Body>
                 <Card.Title>Experience</Card.Title>
                 <Card.Text><p>I have an abundance of experience between pharmacy and information technology roles</p>
@@ -56,8 +57,8 @@ function App() {
               </Card.Body>
             </Card>
             </Col>
-            <Col lg='4'><Card className='m-2 shadow'>
-              <Card.Img src='capitol.jpg'></Card.Img>
+            <Col><Card>
+              <Card.Img src='/public/capitol.jpg'></Card.Img>
               <Card.Body>
                 <Card.Title>Values</Card.Title>
                 <Card.Text><p>My mission is to help better lives through connecting healthcare and information technology systems</p>
@@ -70,8 +71,8 @@ function App() {
                 </Card.Text>
               </Card.Body>
             </Card></Col>
-            <Col lg='4'><Card className='m-2 shadow'>
-              <Card.Img src='bascom.jpg'></Card.Img>
+            <Col><Card>
+              <Card.Img src='/public/bascom.jpg'></Card.Img>
               <Card.Body>
                 <Card.Title>Education</Card.Title>
                 <Card.Text><p>I strive to learn and apply new information to my tasks</p>
