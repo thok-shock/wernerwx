@@ -37,8 +37,8 @@ function App() {
         
         <Container className='pt-3'>
           <Row>
-            <Col>
-            <Card>
+            <Col lg='4'>
+            <Card className='m-2 shadow'>
               <Card.Img src='walgreen.jpg'></Card.Img>
               <Card.Body>
                 <Card.Title>Experience</Card.Title>
@@ -56,7 +56,7 @@ function App() {
               </Card.Body>
             </Card>
             </Col>
-            <Col><Card>
+            <Col lg='4'><Card className='m-2 shadow'>
               <Card.Img src='capitol.jpg'></Card.Img>
               <Card.Body>
                 <Card.Title>Values</Card.Title>
@@ -65,12 +65,12 @@ function App() {
                 <ul><li>Integrity</li>
                 <ul><li>I act standing on my own principles of what is right</li></ul>
                 <li>Honesty</li>
-                <ul><li>I am not afraid to admit when I am wrong</li></ul></ul>
+                <ul><li>Not afraid to admit when I am wrong</li></ul></ul>
                 </div>
                 </Card.Text>
               </Card.Body>
             </Card></Col>
-            <Col><Card>
+            <Col lg='4'><Card className='m-2 shadow'>
               <Card.Img src='bascom.jpg'></Card.Img>
               <Card.Body>
                 <Card.Title>Education</Card.Title>

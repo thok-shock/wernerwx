@@ -29,6 +29,26 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+@media only screen and (max-width: 768px) {
+    
+  .center-over-video {
+      width: 100% !important;
+      display: block;
+      position: relative !important;
+      top: unset;
+      left: unset;
+      transform: unset;
+      border-radius: 0px;
+      transition: 0.5s;
+      white-space:nowrap;
+      overflow: hidden;
+      padding: 1px !important;
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+      margin-top: -6px;
+  }
+}
+
 @keyframes fadeInAnimation {
   0% {
       opacity: 0;
