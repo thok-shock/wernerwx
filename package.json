@@ -6,7 +6,9 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
+    "dotenv": "^16.4.7",
     "express": "^5.1.0",
+    "mysql": "^2.18.1",
     "nodemon": "^3.1.9",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
@@ -17,7 +19,7 @@
     "webpack-hot-middleware": "^2.26.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npx nodemon server/index",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

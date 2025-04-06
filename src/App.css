@@ -29,10 +29,10 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1300px) {
     
   .center-over-video {
-      width: 100% !important;
+      justify-self: center;
       display: block;
       position: relative !important;
       top: unset;
@@ -42,10 +42,10 @@
       transition: 0.5s;
       white-space:nowrap;
       overflow: hidden;
-      padding: 1px !important;
+      padding: 10px !important;
       padding-top: 10px !important;
       padding-bottom: 10px !important;
-      margin-top: -6px;
+      margin-top: -50%;
   }
 }
 
