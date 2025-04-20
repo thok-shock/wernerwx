@@ -6,7 +6,7 @@ const webpackDevMiddleware = require('webpack-dev-middleware')
 const compiler = webpack(config)
 const path = require('path')
 const db = require('./db.js')
-const apiRouter = require('./api/api.js')
+//const apiRouter = require('./api/api.js')
 
 //if prod, do not hot load
 if (process.env.NODE_ENV !== "production") {
